@@ -20,18 +20,23 @@
     background-size: cover;
 }
 
-.keanu {
+.keanu:hover {
+    background-image: url("keanu-government.png");
+    transition: 2s;
+    width: 300px;
+    height: 300px;
 }
 
 
 
 .middle{
-
+    filter: grayscale(100%);
     background-image: url("2.jpg");
     background-size: cover;
 }
 
 .middle:hover {
+    filter:grayscale(0%);
     transform: rotate(180deg);
     transition: 1s;
     transform-origin: top;
